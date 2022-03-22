@@ -12,7 +12,10 @@ namespace BroLight.Controllers
         {
             return View();
         }
-
+        public ActionResult Projects()
+        {
+            return View();
+        }
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
